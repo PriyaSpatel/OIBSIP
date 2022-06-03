@@ -1,0 +1,127 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+body{
+    overflow: hidden;
+}
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background:url(https://th.bing.com/th/id/R.88167570fcf2fb2bf1b16d10e20cc029?rik=XLx2FAnOY2IsEg&riu=http%3a%2f%2fpavbca.com%2fwalldb%2foriginal%2f1%2f4%2fe%2f793955.jpg&ehk=9L7GyXIFRt5tpuJJbLDpU8JfiOsmDkQnFGIAuHeAiLA%3d&risl=&pid=ImgRaw&r=0) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+header{
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .Successfull{
+    color:blue;
+    position: relative;
+    color: rgb(128, 111, 111);
+    font-size: 70px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 1000;
+    letter-spacing: 5px;
+
+}
+header .Successfull:hover{
+    color: red;
+}
+
+header .navigation a{
+    position: relative;
+    color:red;
+    font-size: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    padding: 2px 10px;
+    /* border: 1px solid pink;
+    border-radius: 10%; */
+
+}
+header .navigation a:hover{
+    color:red;
+    background: fixed;
+    /* border: 1px solid black; */
+    /* border-radius: 10px; */
+}
+.content{
+    max-width: 650px;
+    margin: 15% 30%;
+}
+.content .info h2{
+    color: rgb(255, 0, 255);
+    font-size: 60px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.content .info p{
+    color:yellow;
+    letter-spacing: 1.5px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+.Sign-up-btn{
+    margin-top: auto;
+    border: 1px solid green;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 35px;
+    padding: 10px 30px;
+    color:green;
+    background: fixed;
+    margin-right: 25px;
+    font-weight: 700;
+
+
+}
+.Sign-up-btn:hover{
+    background:blue;
+    transition: 0.5s;
+    color: green;
+    transform: scale(1.5);
+    border: none;
+
+
+}
+.media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+.media a{
+    position: relative;
+    color: black;
+    font-size: 25px;
+    margin-right: 50px;
+    transition: 0.3s;
+    transition-property: transform;
+}
+.media a:hover{
+    transform: scale(1.5);
+    /* border: 1px solid white; */
+
+}
